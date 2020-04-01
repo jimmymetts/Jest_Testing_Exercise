@@ -15,6 +15,6 @@ test('adds 2 + 2 to NOT equal 5', () => {
 // toBeTruthy matches anything that an if statement treats as true
 // toBeFalsy matches anything that an if statement treats as false
 
-test('adds 2 + 2 to NOT equal 5', () => {
-    expect(functions.add(2, 2)).not.toBe(5);
+test('Should be null', () => {
+    expect(functions.isNull()).toBeNull();
 });
