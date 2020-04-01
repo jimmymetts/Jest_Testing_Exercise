@@ -15,10 +15,21 @@ test('adds 2 + 2 to NOT equal 5', () => {
 // toBeTruthy matches anything that an if statement treats as true
 // toBeFalsy matches anything that an if statement treats as false
 
+
+// toBeNull
 test('Should be null', () => {
     expect(functions.isNull()).toBeNull();
 });
 
+// toBeFalsy
 test('Should be falsy', () => {
     expect(functions.checkValue(null)).toBeFalsy();
 });
+
+test('User should be Brad Traversy object', () => {
+    expect(functions.createUser()).toBe({
+        firstName: 'Brad',
+        lastName: 'Traversy'
+});
+});
+
