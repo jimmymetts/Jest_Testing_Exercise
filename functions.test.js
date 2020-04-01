@@ -27,7 +27,7 @@ test('Should be falsy', () => {
 });
 
 test('User should be Brad Traversy object', () => {
-    expect(functions.createUser()).toBe({
+    expect(functions.createUser()).toEqual({
         firstName: 'Brad',
         lastName: 'Traversy'
 });
