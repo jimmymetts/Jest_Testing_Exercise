@@ -37,7 +37,7 @@ test('User should be Brad Traversy object', () => {
 test('Should be under 1600', () => {
     const load1 = 800;
     const load2 = 800;
-    expect(load1 + load2).toBeLessThan(1600);
+    expect(load1 + load2).toBeLessThanorEqual(1600);
 
 });
 
