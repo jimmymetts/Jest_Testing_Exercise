@@ -43,5 +43,5 @@ test('Should be under 1600', () => {
 //Regular expressions
 
 test('There is no I in Team', () => {
-    expect('teami').not.toMatch(/I/i);
+    expect('teami').toMatch(/I/i);
 });
